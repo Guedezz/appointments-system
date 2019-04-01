@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-inverse navbar-expand-md navbar-light" style="border-radius: 0px; box-shadow: 3px 3px 18px #428bca;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" style="background-color: grey" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-header">
+            <h5 class="navbar-brand" >The Patient Hub</h5>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul style="display: inline" class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.php">Home</a></li>
+                <li class="nav-item"><a href="appointments.php">Appointments</a></li>
+                <li class="nav-item"><a href="messages.php">Messages</a></li>
+                <li class="nav-item"><a href="settings.php">Account Settings</a></li>
+
+            </ul>
+        </div>
+        <a class="btn btn-primary" href="book-appt.php">Book an appointment</a>
+        &nbsp;&nbsp;
+        <button class="btn btn-danger navbar-btn" onclick="window.location.href='../logout.php';">Logout</button>
+    </div>
+</nav>
+<footer class="footer" style="position:fixed; bottom:0; width:100%; background:#e6eaed;">
+    <div class="container-fluid">
+        <div class="pull-right">
+            &copy; <script>document.write(new Date().getFullYear())</script> The Patient Hub - Staff Portal</div>
+    </div>
+</footer>
